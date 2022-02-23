@@ -1,0 +1,8 @@
+a=[] 
+n=int(input('enter n: '))
+for i in range(n):
+    b=int(input())
+    a.append(b)
+print('given list: ',a)
+a.reverse()
+print('reverse of list: ',a)
